@@ -32,9 +32,9 @@ def factorial_digit_sum_prime(n):
     sum_digits = digit_sum(fact) - n
 
     # Check if sum of digits is prime and if it's not, return the cube of the sum
-    prime_check = is_prime(sum_digits) if is_prime(sum_digits) else math.pow(sum_digits, 3)
+    prime_check_yessir = (is_prime(sum_digits) if is_prime(sum_digits) else math.pow(sum_digits, 3))
 
-    return prime_check
+    return prime_check_yessir
 
 
 def substract(a, b):
@@ -42,5 +42,5 @@ def substract(a, b):
 
 
 # write a longer function
-def my_long_function(a, b, c, d, e, f, g, h, i, j, k, l, m, n):
-    return a + b + c + d + e + f + g + h + i + j + k + l + m + n
+def my_long_function(a, b, c, d, e, f, g, h, i, j, k, m, n):
+    return a + b + c + d + e + f + g + h + i + j + k + m + n
